@@ -146,16 +146,6 @@ export default function Navbar() {
                 {t(link.id, link.id.charAt(0).toUpperCase() + link.id.slice(1))}
               </a>
             ))}
-
-            <a
-              href="https://fund.socious.org/home"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-[#004C45] hover:bg-[#003832] text-white px-6 py-2 rounded-xl text-sm font-semibold no-underline text-center"
-              onClick={() => setMobileOpen(false)}
-            >
-              {t("cta")}
-            </a>
           </div>
         )}
       </nav>

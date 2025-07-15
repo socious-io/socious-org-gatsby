@@ -16,7 +16,7 @@ export default function Footer() {
             <img
               src={logo}
               alt="Socious Fund Logo"
-              className="h-8"
+              className="h-10 translate-y-[5px] md:translate-y-[10px]"
             />
             <span className="px-3 md:px-4 text-xl md:text-2xl leading-tight font-semibold text-[#004C45]">Socious Fund</span>
           </div>

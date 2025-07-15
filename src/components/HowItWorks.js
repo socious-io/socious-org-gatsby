@@ -15,7 +15,7 @@ export default function HowItWorks() {
   const tips = ["tip1", "tip2", "tip3"]
 
   return (
-    <section id="howitworks" className="py-24 bg-[#EDF2F3]">
+    <section id="howitworks" className=" bg-[#EDF2F3]">
       <div className="max-w-[75%] mx-auto">
         <div className="max-w-2xl mx-auto text-center mb-20">
           <p className="text-base md:text-lg text-gray-500 font-medium -mt-8 mb-2">
