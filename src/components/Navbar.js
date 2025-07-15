@@ -45,6 +45,20 @@ export default function Navbar() {
             </span>
           </div>
 
+          {/* Language selector (always visible on mobile) */}
+          <div className="flex md:hidden">
+            <select
+              value={i18n.language}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
+              className="bg-gray-100 text-black px-3 py-1.5 rounded-xl text-sm font-medium"
+            >
+              <option value="en">English</option>
+              <option value="ja">日本語</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+            </select>
+          </div>
+
           {/* Desktop Links */}
           <div className="hidden md:flex items-center space-x-8">
             {[
@@ -119,6 +133,9 @@ export default function Navbar() {
               { id: "howitworks", href: "/#howitworks" },
               { id: "faq", href: "/#faq" },
               { id: "thanks", href: "/thank" },
+              { id: "newsroom", href: "/newsroom" },
+              { id: "blog", href: "/blog" },
+              { id: "team", href: "/team" },
             ].map(link => (
               <a
                 key={link.id}
@@ -126,7 +143,7 @@ export default function Navbar() {
                 className="block text-black font-medium no-underline hover:text-[#004C45]"
                 onClick={() => setMobileOpen(false)}
               >
-                {t(link.id)}
+                {t(link.id, link.id.charAt(0).toUpperCase() + link.id.slice(1))}
               </a>
             ))}
 
@@ -139,20 +156,6 @@ export default function Navbar() {
             >
               {t("cta")}
             </a>
-
-            <select
-              value={i18n.language}
-              onChange={(e) => {
-                i18n.changeLanguage(e.target.value);
-                setMobileOpen(false);
-              }}
-              className="bg-gray-100 text-black px-5 py-2 rounded-xl text-sm font-medium w-full"
-            >
-              <option value="en">English</option>
-              <option value="ja">日本語</option>
-              <option value="fr">Français</option>
-              <option value="es">Español</option>
-            </select>
           </div>
         )}
       </nav>

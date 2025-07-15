@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-white border-t pt-8 md:pt-12 pb-6 md:pb-8 px-4 md:px-6 max-w-full md:max-w-[75%] mx-auto">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 justify-items-center md:justify-items-start">
         
         {/* Left Section */}
         <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-6 text-center md:text-left">
