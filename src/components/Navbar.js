@@ -3,20 +3,20 @@ import ReactDOM from "react-dom";
 import logo from "../images/socious-logo.avif";
 import { useTranslation } from "react-i18next";
 import { Link } from "gatsby";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
   const { t, i18n } = useTranslation("navbar");
   const [showDropdown, setShowDropdown] = useState(false);
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 });
+  const [mobileOpen, setMobileOpen] = useState(false);
   const aboutButtonRef = useRef();
 
   useEffect(() => {
     console.log("🔤 Current language:", i18n.language);
-    console.log("🌐 Loaded namespaces:", i18n.hasResourceBundle("en", "navbar"));
-    console.log("📖 Translation check (brand):", t("brand", "🚫 fallback brand"));
   }, [i18n.language]);
 
-  // Handle showing dropdown
+  // Handle showing desktop dropdown
   const handleMouseEnter = () => {
     if (aboutButtonRef.current) {
       const rect = aboutButtonRef.current.getBoundingClientRect();
@@ -36,15 +36,17 @@ export default function Navbar() {
   return (
     <>
       <nav className="absolute top-0 left-0 w-full bg-white py-4 z-[9999] font-sans">
-        <div className="max-w-[75%] mx-auto flex items-center justify-between">
+        <div className="max-w-full md:max-w-[75%] mx-auto flex items-center justify-between px-4 md:px-0">
+          {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt={t("alt")} className="h-10 translate-y-[10px]" />
-            <span className="text-2xl font-semibold text-[#004C45] leading-tight">
+            <img src={logo} alt={t("alt")} className="h-10 translate-y-[5px] md:translate-y-[10px]" />
+            <span className="text-xl md:text-2xl font-semibold text-[#004C45] leading-tight">
               {t("brand")}
             </span>
           </div>
 
-          <div className="flex items-center space-x-8">
+          {/* Desktop Links */}
+          <div className="hidden md:flex items-center space-x-8">
             {[
               { id: "home", href: "/" },
               { id: "benefits", href: "/#benefits" },
@@ -55,13 +57,12 @@ export default function Navbar() {
               <a
                 key={link.id}
                 href={link.href}
-                className="text-black font-medium no-underline hover:text-[#004C45] capitalize"
+                className="text-black font-medium no-underline hover:text-[#004C45]"
               >
                 {t(link.id)}
               </a>
             ))}
 
-            {/* About Us Dropdown */}
             <div
               className="relative"
               onMouseEnter={handleMouseEnter}
@@ -69,14 +70,15 @@ export default function Navbar() {
             >
               <button
                 ref={aboutButtonRef}
-                className="text-black font-medium hover:text-[#004C45] capitalize"
+                className="text-black font-medium hover:text-[#004C45]"
               >
                 {t("about", "About Us")}
               </button>
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
+          {/* Language & CTA - Desktop */}
+          <div className="hidden md:flex items-center space-x-4">
             <select
               value={i18n.language}
               onChange={(e) => i18n.changeLanguage(e.target.value)}
@@ -97,7 +99,62 @@ export default function Navbar() {
               {t("cta")}
             </a>
           </div>
+
+          {/* Mobile Hamburger */}
+          <button
+            className="md:hidden text-2xl text-[#004C45]"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileOpen && (
+          <div className="md:hidden bg-white border-t px-4 pb-4 space-y-3 shadow">
+            {[
+              { id: "home", href: "/" },
+              { id: "benefits", href: "/#benefits" },
+              { id: "howitworks", href: "/#howitworks" },
+              { id: "faq", href: "/#faq" },
+              { id: "thanks", href: "/thank" },
+            ].map(link => (
+              <a
+                key={link.id}
+                href={link.href}
+                className="block text-black font-medium no-underline hover:text-[#004C45]"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t(link.id)}
+              </a>
+            ))}
+
+            <a
+              href="https://fund.socious.org/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-[#004C45] hover:bg-[#003832] text-white px-6 py-2 rounded-xl text-sm font-semibold no-underline text-center"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t("cta")}
+            </a>
+
+            <select
+              value={i18n.language}
+              onChange={(e) => {
+                i18n.changeLanguage(e.target.value);
+                setMobileOpen(false);
+              }}
+              className="bg-gray-100 text-black px-5 py-2 rounded-xl text-sm font-medium w-full"
+            >
+              <option value="en">English</option>
+              <option value="ja">日本語</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+            </select>
+          </div>
+        )}
       </nav>
 
       {/* Render Dropdown via Portal */}

@@ -8,20 +8,20 @@ export default function Benefits() {
   const { t } = useTranslation("benefits") // namespace: benefits.json
 
   return (
-    <section id="benefits" className="bg-[#004C45] text-white py-28 px-6">
-      <div className="max-w-[75%] mx-auto">
+    <section id="benefits" className="bg-[#004C45] text-white py-16 md:py-28 px-4 md:px-6">
+      <div className="max-w-[90%] md:max-w-[75%] mx-auto">
         {/* Section Heading */}
-        <div className="max-w-3xl mx-auto text-center mb-20">
-          <h3 className="text-base md:text-lg text-gray-300 font-medium -mt-8 mb-2">
+        <div className="max-w-3xl mx-auto text-center mb-16 md:mb-20">
+          <h3 className="text-sm md:text-lg text-gray-300 font-medium -mt-6 md:-mt-8 mb-2">
             {t("sectionLabel")}
           </h3>
-          <h2 className="text-4xl md:text-5xl font-semibold leading-snug">
+          <h2 className="text-3xl md:text-5xl font-semibold leading-snug">
             {t("heading")}
           </h2>
         </div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 text-center md:text-left">
           {/* Feature 1 */}
           <div>
             <img src={iconFunding} alt={t("feature1.alt")} className="h-10 mx-auto md:mx-0 mb-6" />
@@ -53,4 +53,3 @@ export default function Benefits() {
     </section>
   )
 }
-
