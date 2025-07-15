@@ -31,9 +31,9 @@ export default function Footer() {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col items-start md:items-end text-left md:text-right w-full space-y-3 md:space-y-4">
+        <div className="flex flex-col items-center md:items-end md:text-right w-full space-y-3 md:space-y-4">
           <h4 className="text-base md:text-lg text-center md:text-right font-medium text-[#0F172A] tracking-wide">{t("quickLinks")}</h4>
-          <ul className="space-y-3 md:space-y-4 w-full md:w-auto">
+          <ul className="space-y-3 md:space-y-4 w-full text-left md:text-right md:w-auto">
             <li><a href="/#intro" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.home")}</a></li>
             <li><a href="/#benefits" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.benefits")}</a></li>
             <li><a href="/#howitworks" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.howItWorks")}</a></li>
