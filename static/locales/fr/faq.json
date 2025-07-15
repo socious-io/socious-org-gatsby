@@ -1,0 +1,60 @@
+{
+  "faqLabel": "FAQ",
+  "faqheading": "Réponses à vos questions les plus fréquentes",
+  "matched": "Trouvez le financement qui vous convient ",
+  "q1": {
+    "question": "Quels types de projets sont éligibles?",
+    "answer": "Cela comprend des initiatives axées sur l'éducation, la réduction de la pauvreté, la durabilité environnementale, la santé publique, les arts et la culture au profit de la communauté, ainsi que d'autres domaines ayant un impact similaire."
+  },
+  "q2": {
+    "question": "Nous ne sommes pas une organisation à but non lucratif. Sommes-nous tout de même éligibles?",
+    "answer": "Oui, les entreprises sociales, les start-ups à impact social et autres entités similaires peuvent postuler, à condition que leur mission principale corresponde aux objectifs à impact social mentionnés ci-dessus."
+  },
+  "q3": {
+    "question": "Comment fonctionne le vote quadratique étendu?",
+    "answer": "Notre système de vote prend en compte trois facteurs clés : le nombre de soutiens, leur impact social avéré (exprimé sous forme de « score d'impact ») et leurs contributions financières à votre projet. Cette approche équilibrée récompense les projets qui bénéficient d'un large soutien de la communauté, en particulier de la part d'acteurs du changement reconnus."
+  },
+  "q4": {
+    "question": "Y a-t-il des restrictions géographiques?",
+    "answer": "Non, les projets provenant de n'importe où dans le monde peuvent solliciter un financement."
+  },
+  "q5": {
+    "question": "Comment obtenir un financement pour votre projet?",
+    "answer": [
+     " 1. Soumettre et vérifier\nTéléchargez votre projet en vous assurant qu'il répond aux critères d'impact (par exemple, social, environnemental). Passez les vérifications de base (y compris le statut fiscal, le cas échéant).",
+    "2. Participer au vote\nMobilisez vos supporters pour qu'ils votent et fassent des dons. Chaque vote et chaque contribution augmentent le potentiel de financement grâce à la formule quadratique étendue de Socious.",
+    "3. Recevoir un double financement\nUne fois le vote terminé, les projets reçoivent à la fois des dons directs et des subventions de contrepartie provenant du fonds mondial.",
+    "4. Lancer et rendre compte\nUtilisez les fonds pour réaliser votre projet, puis rendez compte des résultats afin de maintenir la transparence, d'instaurer la confiance et d'améliorer votre score d'impact pour les prochains cycles."
+    ]
+  },
+  "q6": {
+    "question": "Comment calculez-vous le score d'impact?",
+    "answer": "Les scores d'impact sont calculés en fonction du temps et de l'argent que les individus ont consacrés à des causes sociales."
+  },
+  "q7": {
+    "question": "Comment le KYC affecte-t-il le droit de vote?",
+    "answer": "Il n'est pas nécessaire de procéder à la vérification d'identité (KYC) pour participer au vote. Cependant, une fois votre identité vérifiée, votre vote aura plus d'impact et vous gagnerez 1 000 jetons THANK en récompense.\n\nBien que la vérification d'identité (KYC) n'augmente pas directement votre multiplicateur dans la formule de vote quadratique, elle augmente votre score d'impact, qui influence votre pouvoir de vote futur."
+  },
+  "q8": {
+    "question": "Comment les dons influencent-ils le pouvoir de vote?",
+    "answer": [
+      "1. Chaque contribution financière augmente le poids de votre vote dans un modèle de financement quadratique.",
+      "2. Les dons contribuent à améliorer votre score d'impact, ce qui multiplie encore davantage votre pouvoir de vote et votre influence lors des prochains tours. "
+    ]
+  },
+  "q9": {
+    "question": "Comment les points d'impact affectent-ils le pouvoir de vote?",
+    "answer": "Votre score d'impact est le reflet cumulé de vos contributions (en temps et en argent) à des causes sociales et environnementales.\n\nDans le système de vote quadratique étendu de Socious, les votes des utilisateurs ayant un score d'impact plus élevé ont plus de poids, ce qui donne plus d'influence aux personnes qui démontrent continuellement un impact réel."
+  },
+  "q10": {
+    "question": "Comment gagner des points d'impact?",
+    "answer": [
+      "Vous pouvez gagner des points d'impact en :",
+      "- Votant lors des cycles de financement",
+      "- Faisant des dons à des projets à impact",
+      "- Participant à des activités communautaires (par exemple, Socious Work)",
+      "- Accomplissant des tâches ou obtenant des certifications liées à l'impact",
+      "Ces actions sont vérifiées et enregistrées, ce qui augmente votre score d'impact et votre influence future lors des votes."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sectionLabel": "How it Works",
+  "sectionHeading": "How you can get funding today",
+
+  "step1": {
+    "title": "Submit & Verify",
+    "alt": "Step 1 - Verify your organization",
+    "description1": "Submit your project profile with documentation of impactful purposes. Our team verifies 501(c)(3) alignment to enable tax-deductible donations.",
+    "description2": "Learn more about",
+    "link": "KYB Verification"
+  },
+
+  "step2": {
+    "title": "Engage During Voting",
+    "alt": "Step 2 - Engage during voting",
+    "description1": "After approval, your project enters voting where community members can vote and donate. Votes from users who have completed verification, have donated, and who have contributed to social and environmental projects carry more impact, giving your project a better chance of funding.",
+    "description2": "Learn more about",
+    "link1": "Impact Scores",
+    "description3": "See the results of the",
+    "link2": "Pilot Round"
+  },
+
+  "step3": {
+    "title": "Receive Dual Funding",
+    "alt": "Step 3 - Receive dual funding",
+    "description1": "After voting, scores are calculated using Extended Quadratic Funding, based upon which you'll receive direct donations plus matching grants.",
+    "description2": "Your funding amount combines both financial support from Socious Fund and community endorsement. Learn more about",
+    "link": "Extended Quadratic Funding"
+  },
+
+  "step4": {
+    "title": "Launch & Report Impact",
+    "alt": "Step 4 - Launch and report impact",
+    "description": "Launch your project and report regularly on impact metrics and milestones to maintain transparency and strengthen community trust."
+  },
+
+  "tips": {
+    "heading": "Crowdfunding Tips and Insights"
+  },
+
+  "tip1": {
+    "title": "Tips for optimizing your results",
+    "points": [
+      "Verify on Socious Fund with KYC",
+      "Contribute a donation to your project",
+      "Receive impact points based on their past social efforts",
+      "Share and refer others and encourage them to verify, vote, and donate"
+    ]
+  },
+
+  "tip2": {
+    "title": "Tips for telling your story",
+    "points": [
+      "Start with a personal story sharing why this issue matters",
+      "Give your project a memorable title",
+      "Share the challenges you've faced",
+      "Clearly outline your goals, and milestones",
+      "Form a connection with your donors, and consider your story from their point of view",
+      "Post frequent fundraising updates"
+    ]
+  },
+
+  "tip3": {
+    "title": "Tips for sharing your project",
+    "points": [
+      "Start sharing your Socious Fund project from day 1, and promote often",
+      "Use compelling images and videos to enhance engagement",
+      "Share your project link with social media groups, and organizations with similar interests",
+      "Step outside of your direct network, and actively update throughout the voting period",
+      "Highlight timely moments or milestones to drive urgency"
+    ]
+  },
+
+  "final": {
+    "subheading": "Impactful, Safe, and Trusted",
+    "heading": "With Socious Fund's transparent fees, KYC verification process, and a team of support staff, you can rest assured that your funds are secure, and are directly supporting impactful projects.",
+    "linkText": "Learn more about",
+    "link": "how Socious Fund works"
+  }
+}

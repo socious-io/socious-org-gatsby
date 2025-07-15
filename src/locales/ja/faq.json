@@ -1,0 +1,60 @@
+{
+  "faqLabel": "FAQ",
+  "faqheading": "Answers to your most common concerns",
+  "matched": "Get Matched",
+  "q1": {
+    "question": "What types of projects qualify?",
+    "answer": "This includes initiatives focused on education, poverty alleviation, environmental sustainability, public health, arts and culture with community benefit, and similar impact areas."
+  },
+  "q2": {
+    "question": "We are not a non-profit. Are we still eligible?",
+    "answer": "Yes, social enterprises, impact startups, and other similar entities can apply, as long as their primary mission aligns with the impactful purposes mentioned above."
+  },
+  "q3": {
+    "question": "How does extended quadratic voting work?",
+    "answer": "Our voting system considers three key factors: the number of supporters, their proven track record of social impact (shown as an \"impact score\"), and their financial contributions to your project. This balanced approach rewards projects that gain broad community support, especially from demonstrated changemakers."
+  },
+  "q4": {
+    "question": "Are there any geographical limitations?",
+    "answer": "No, projects from anywhere in the world can seek funding."
+  },
+  "q5": {
+    "question": "How to get funding for your project?",
+    "answer": [
+      "1. Submit & Verify\nUpload your project, ensuring it meets impact criteria (e.g., social, environmental). Undergo basic checks (including tax-status if applicable).",
+      "2. Engage During Voting\nRally your supporters to vote and donate. Each vote and contribution increases the funding potential via Socious’ extended quadratic formula.",
+      "3. Receive Dual Funding\nAfter voting ends, projects receive both direct donations and matching grants from the global pool.",
+      "4. Launch & Report\nUse funds to execute your project, then report outcomes to maintain transparency, build trust, and boost your Impact Score for future rounds."
+    ]
+  },
+  "q6": {
+    "question": "How do you calculate impact score?",
+    "answer": "Impact scores are calculated based on the time and money individuals have contributed to social causes."
+  },
+  "q7": {
+    "question": "How does KYC affect voting power?",
+    "answer": "Completing KYC (identity verification) isn't required to participate in voting. However, once verified, your vote carries more impact, and you earn 1,000 THANK tokens as a reward.\n\nWhile KYC itself doesn’t directly increase your multiplier in the quadratic voting formula, it increases your Impact Score, which does influence future voting power."
+  },
+  "q8": {
+    "question": "How does donation affect voting power?",
+    "answer": [
+      "1. Each financial contribution increases the weight of your vote in a quadratic funding model.",
+      "2. Donations help boost your Impact Score, which further multiplies your voting power and influence in future rounds."
+    ]
+  },
+  "q9": {
+    "question": "How do Impact Points affect voting power?",
+    "answer": "Your Impact Score is a cumulative reflection of your contributions (both time and money) to social and environmental causes.\n\nIn Socious’ extended quadratic voting system, votes from users with higher Impact Scores hold greater weight, giving more influence to people who continually demonstrate real-world impact."
+  },
+  "q10": {
+    "question": "How to earn Impact Points?",
+    "answer": [
+      "You can earn Impact Points by:",
+      "- Voting in funding rounds",
+      "- Donating to impact projects",
+      "- Participating in community activities (e.g., Socious Work)",
+      "- Completing Impact-related tasks or credentials",
+      "These actions are verified and recorded, boosting your Impact Score and future voting influence."
+    ]
+  }
+}

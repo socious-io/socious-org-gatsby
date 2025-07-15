@@ -1,0 +1,8 @@
+.bg-dimmed::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  filter: brightness(0.7);
+  z-index: 0;
+}

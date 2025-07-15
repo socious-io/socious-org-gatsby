@@ -1,0 +1,80 @@
+{
+  "sectionLabel": "Cómo funciona",
+  "sectionHeading": "Cómo puedes obtener financiación hoy mismo",
+
+  "step1": {
+    "title": "Enviar y verificar",
+    "alt": "Paso 1: Verifique su organización",
+    "description1": "Envíe el perfil de su proyecto junto con la documentación que acredite sus objetivos de impacto. Nuestro equipo verificará que cumple con los requisitos de la sección 501(c)(3) para permitir donaciones deducibles de impuestos.",
+    "description2": "Más información sobre",
+    "link": "verificación KYB"
+  },
+
+  "step2": {
+    "title": "Participa durante la votación",
+    "alt": "Paso 2: Participa durante la votación",
+    "description1": "Tras su aprobación, tu proyecto pasa a la fase de votación, en la que los miembros de la comunidad pueden votar y donar. Los votos de los usuarios que hayan completado la verificación, hayan realizado donaciones y hayan contribuido a proyectos sociales y medioambientales tienen mayor peso, lo que aumenta las posibilidades de que tu proyecto obtenga financiación.",
+    "description2": "Más información sobre",
+    "link1": "Puntuaciones de impacto",
+    "description3": "Vea los resultados de la",
+    "link2": "ronda piloto"
+  },
+
+  "step3": {
+    "title": "Recibir financiación doble",
+    "alt": "Paso 3: Recibir financiación dual",
+    "description1": "Después de la votación, las puntuaciones se calculan utilizando el método Extended Quadratic Funding, en base al cual recibirás donaciones directas más subvenciones equivalentes.",
+    "description2": "El importe de la financiación combina tanto el apoyo financiero de Socious Fund como el respaldo de la comunidad. Más información sobre",
+    "link": "financiación cuadrática ampliada"
+  },
+
+  "step4": {
+    "title": "Lanzamiento e informe de impacto",
+    "alt": "Paso 4: Lanzamiento y comunicación del impacto",
+    "description": "Lanza tu proyecto e informa periódicamente sobre las métricas de impacto y los hitos alcanzados para mantener la transparencia y reforzar la confianza de la comunidad."
+  },
+
+  "tips": {
+    "heading": "Consejos e información sobre el crowdfunding"
+  },
+
+  "tip1": {
+    "title": "Consejos para optimizar tus resultados",
+    "points": [
+      "Verificar en Socious Fund con KYC",
+      "Contribuye con una donación a tu proyecto",
+      "Reciba puntos de impacto en función de sus esfuerzos sociales anteriores",
+      "Comparte y recomienda a otras personas, y anímalas a verificar, votar y donar"
+    ]
+  },
+
+  "tip2": {
+    "title": "Consejos para contar tu historia",
+    "points": [
+      "Empieza con una historia personal en la que expliques por qué este tema es importante",
+      "Dale a tu proyecto un título memorable",
+      "Comparte los retos a los que te has enfrentado",
+      "Defina claramente sus objetivos y hitos",
+      "Establezca una conexión con sus donantes y considere su historia desde su punto de vista",
+      "Publica actualizaciones frecuentes sobre la recaudación de fondos"
+    ]
+  },
+
+  "tip3": {
+    "title": "Consejos para compartir tu proyecto",
+    "points": [
+      "Empieza a compartir tu proyecto Socious Fund desde el primer día y promociónalo con frecuencia",
+      "Utiliza imágenes y vídeos atractivos para mejorar la interacción",
+      "Comparte el enlace de tu proyecto con grupos de redes sociales y organizaciones con intereses similares",
+      "Salga de su red directa y actualícese activamente durante todo el período de votación",
+      "Destaca los momentos oportunos o los hitos para generar urgencia"
+    ]
+  },
+
+  "final": {
+    "subheading": "Impactante, seguro y confiable",
+    "heading": "Con las tarifas transparentes de Socious Fund, el proceso de verificación KYC y un equipo de personal de apoyo, puede estar seguro de que sus fondos están seguros y están apoyando directamente proyectos de gran impacto.",
+    "linkText": "Más información sobre",
+    "link": "cómo funciona Socious Fund"
+  }
+}

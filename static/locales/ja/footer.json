@@ -1,0 +1,14 @@
+{
+  "getFunding": "資金調達を行う",
+  "quickLinks": "クイックリンク",
+  "links": {
+    "home": "ホーム",
+    "about": "概要",
+    "benefits": "メリット",
+    "howItWorks": "仕組み",
+    "learnMore": "詳細はこちら",
+    "socious": "Socious.io",
+    "events": "イベント",
+    "joinDiscord": "当社のDiscordに参加してください"
+  }
+}

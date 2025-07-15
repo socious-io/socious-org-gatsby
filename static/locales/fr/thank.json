@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "heading": "Rejoignez l'économie Tech-for-Good",
+    "subheading": "Gagner. S'engager. Autonomiser.",
+    "description": "THANK est le jeton d'accès qui vous permet de participer au mouvement Tech for Impact. Il vous donne accès à SOCIO, vous permet de rejoindre l'ISPO et vous offre une participation plus approfondie au sommet Tech for Impact 2025 au Japon.",
+    "link": "Comment gagner des THANK",
+    "button": "Achetez un billet pour le sommet"
+  },
+  "what": {
+    "title": "Qu'est-ce que THANK?",
+    "description": "THANK est un jeton de récompense créé par Socious, une plateforme à impact social, afin d'encourager la participation à des écosystèmes axés sur des objectifs précis. Il s'obtient en déléguant des ADA à nos pools de mise et peut être échangé contre des SOCIO, un jeton utilitaire utilisé lors du sommet Tech for Impact 2025.",
+    "flow": "THANK → SOCIO → Expériences"
+  },
+  "why": {
+    "label": "Avantages",
+    "title": "Pourquoi THANK est important",
+    "description": "THANK n'est pas seulement un simple geste symbolique, c'est un outil qui permet d'avoir un impact.",
+    "benefit1": "Récompenser le soutien communautaire",
+    "benefit2": "Accès aux fonctionnalités exclusives du sommet",
+    "benefit3": "Alimenter des cas d'utilisation concrets de la blockchain"
+  },
+  "how": {
+    "title": "Que dois-je savoir à propos de THANK?",
+    "earn": {
+      "title": "Comment puis-je gagner des THANK?",
+      "description": "Vous pouvez gagner des THANK en déléguant vos ADA à nos pools de mise ISPO officiels. Pour chaque tranche de 10 ADA misés par époque, vous recevez 35 jetons THANK.",
+      "sub": "Délégation → THANK → Réclamable via DripDropz",
+      "link": "👉 Guide étape par étape pour réclamer THANK"
+    },
+    "do": {
+      "title": "Que puis-je faire avec THANK?",
+      "description1": "Échangez THANK contre SOCIO",
+      "description2": "1 SOCIO = 1,000,000 THANK",
+      "description3": "Achetez le module complémentaire SOCIO pour le Summit\nLe module complémentaire SOCIO coûte 10 000 SOCIO, ce qui équivaut à 10 milliards de THANK selon le taux de conversion.\n\nParticipez à des initiatives à impact social sur la chaîne"
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "link1": "En savoir plus sur SOCIO",
+    "link2": "Billets et détails du sommet",
+    "link3": "Comment réclamer des jetons",
+    "link4": "KYC (vérification)"
+  },
+  "faq": {
+    "title": "Réponses à vos questions les plus fréquentes concernant THANK",
+    "faq1": {
+      "q": "Comment puis-je réclamer mes récompenses THANK?",
+      "a": "Vos récompenses sont automatiquement calculées par période et peuvent être réclamées via DripDropz."
+    },
+    "faq2": {
+      "q": "Quel est le taux de conversion THANK:SOCIO?",
+      "a": "1 SOCIO = 1,000,000 THANK"
+    },
+    "faq3": {
+      "q": "Qu'est-ce que le module complémentaire SOCIO?",
+      "a": "Une mise à niveau exclusive pour les participants au Tech for Impact Summit. En échangeant THANK → SOCIO et en utilisant 10 000 SOCIO, vous débloquez un accès spécial et des expériences basées sur la blockchain lors du sommet."
+    },
+    "faq4": {
+      "q": "Pourquoi la vérification KYC est-elle si  compliquée?",
+      "a": "Nous comprenons que le processus de vérification KYC peut parfois sembler lent ou déroutant, et nous vous remercions de votre patience !\n\nAfin de garantir la sécurité et la légitimité de tous les dons et votes, Socious s'est associé à Veriff, un fournisseur tiers de vérification d'identité de confiance. Bien que la plupart des vérifications soient effectuées rapidement, des retards peuvent survenir pour les raisons suivantes :\n - Des documents téléchargés incomplets ou flous\n- Une incompatibilité entre votre pièce d'identité et votre selfie\n- Un trafic élevé pendant les heures de pointe\n- Des problèmes de réseau ou des conflits de version d'application\n\nPour éviter tout retard, veillez à :\n- Utiliser la dernière version de l'application Socious Wallet.\n- Avoir à portée de main une pièce d'identité avec photo claire (passeport, carte d'identité nationale ou permis de conduire).\n - Prenez votre selfie dans un bon éclairage, sans filtres ni lunettes.\n- Suivez les instructions sur la page « Credentials » (Identifiants) et sélectionnez « Verify now » (Vérifier maintenant) à l'aide de Veriff.\n- Une fois la vérification réussie, la bannière de votre tableau de bord deviendra verte et vous serez prêt à soutenir des projets ! 🎉\n\nSi vous rencontrez toujours des difficultés, n'hésitez pas à contacter l'assistance via Info@socious.io"
+    }
+  },
+  "final": {
+    "title": "Misez. Gagnez. Rejoignez le mouvement.",
+    "description": "THANK n'est pas seulement un simple geste symbolique, c'est un outil qui permet d'avoir un impact."
+  },
+  "sectionLabel": "Comment ça marche",
+  "faqLabel": "FAQ"
+}

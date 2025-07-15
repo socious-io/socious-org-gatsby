@@ -1,0 +1,20 @@
+{
+  "sectionLabel": "Avantages",
+  "heading": "Pourquoi Socious Fund fonctionne pour les fondateurs sous-représentés",
+
+  "feature1": {
+    "alt": "Icône de financement",
+    "title": "Financement sans réseaux fortunés",
+    "description": "Obtenez un financement grâce au soutien de la communauté via notre système de fonds communs, indépendamment de votre réseau personnel."
+  },
+  "feature2": {
+    "alt": "Icône double flux",
+    "title": "Double source de financement",
+    "description": "Accédez à la fois aux dons directs et aux subventions, afin de maximiser votre potentiel de collecte de fonds."
+  },
+  "feature3": {
+    "alt": "Icône fiscale",
+    "title": "Dons fiscalement avantageux",
+    "description": "Offrez à vos donateurs des déductions fiscales pour leurs contributions grâce à notre statut 501(c)(3) (demande en cours)."
+  }
+}

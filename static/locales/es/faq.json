@@ -1,0 +1,60 @@
+{
+  "faqLabel": "FAQ",
+  "faqheading": "Respuestas a tus inquietudes más comunes",
+  "matched": "Encuentra tu pareja ideal",
+  "q1": {
+    "question": "¿Qué tipos de proyectos son elegibles?",
+    "answer": "Esto incluye iniciativas centradas en la educación, la reducción de la pobreza, la sostenibilidad medioambiental, la salud pública, las artes y la cultura con beneficios para la comunidad, y otras áreas de impacto similares."
+  },
+  "q2": {
+    "question": "No somos una organización sin ánimo de lucro. ¿Seguimos siendo elegibles?",
+    "answer": "Sí, las empresas sociales, las startups de impacto y otras entidades similares pueden presentar su solicitud, siempre y cuando su misión principal esté en consonancia con los objetivos de impacto mencionados anteriormente."
+  },
+  "q3": {
+    "question": "¿Cómo funciona el voto cuadrático ampliado?",
+    "answer": "Nuestro sistema de votación tiene en cuenta tres factores clave: el número de seguidores, su historial demostrado de impacto social (que se muestra como una «puntuación de impacto») y sus contribuciones financieras a tu proyecto. Este enfoque equilibrado premia los proyectos que obtienen un amplio apoyo de la comunidad, especialmente de los agentes del cambio demostrados."
+  },
+  "q4": {
+    "question": "¿Existen limitaciones geográficas?",
+    "answer": "No, los proyectos de cualquier parte del mundo pueden solicitar financiación."
+  },
+  "q5": {
+    "question": "¿Cómo obtener financiación para tu proyecto?",
+    "answer": [
+      "1. Enviar y verificar\nSube tu proyecto y asegúrate de que cumple los criterios de impacto (por ejemplo, social, medioambiental). Se someterá a comprobaciones básicas (incluido el estado fiscal, si procede).",
+      "2. Participa durante la votación\nMoviliza a tus seguidores para que voten y donen. Cada voto y cada contribución aumentan el potencial de financiación a través de la fórmula cuadrática ampliada de Socious.",
+      "3. Recibir financiación doble\nUna vez finalizada la votación, los proyectos reciben tanto donaciones directas como subvenciones equivalentes procedentes del fondo común global.",
+      "4. Lanzamiento e informe\nUtiliza los fondos para ejecutar tu proyecto y, a continuación, informa de los resultados para mantener la transparencia, generar confianza y mejorar tu puntuación de impacto para futuras rondas."
+    ]
+  },
+  "q6": {
+    "question": "¿Cómo se calcula la puntuación de impacto?",
+    "answer": "Las puntuaciones de impacto se calculan en función del tiempo y el dinero que las personas han dedicado a causas sociales."
+  },
+  "q7": {
+    "question": "¿Cómo afecta el KYC al poder de voto?",
+    "answer": "No es necesario completar el proceso KYC (verificación de identidad) para participar en la votación. Sin embargo, una vez verificado, tu voto tiene más impacto y obtienes 1000 tokens THANK como recompensa.\n\nAunque el proceso KYC en sí mismo no aumenta directamente tu multiplicador en la fórmula de votación cuadrática, sí aumenta tu puntuación de impacto, lo que influye en tu poder de voto futuro."
+  },
+  "q8": {
+    "question": "¿Cómo afecta la donación al poder de voto?",
+    "answer": [
+      "1. Cada contribución financiera aumenta el peso de su voto en un modelo de financiación cuadrática.",
+      "2. Las donaciones ayudan a aumentar tu puntuación de impacto, lo que multiplica aún más tu poder de voto y tu influencia en futuras rondas."
+    ]
+  },
+  "q9": {
+    "question": "¿Cómo afectan los puntos de impacto al poder de voto?",
+    "answer": "Tu puntuación de impacto es un reflejo acumulativo de tus contribuciones (tanto en tiempo como en dinero) a causas sociales y medioambientales.\n\nEn el sistema de votación cuadrática ampliada de Socious, los votos de los usuarios con puntuaciones de impacto más altas tienen mayor peso, lo que otorga más influencia a las personas que demuestran continuamente un impacto real en el mundo."
+  },
+  "q10": {
+    "question": "¿Cómo se ganan los puntos de impacto?",
+    "answer": [
+      "Puedes ganar Puntos de Impacto de las siguientes maneras:",
+      "- Votación en rondas de financiación",
+      "- Donaciones a proyectos de impacto",
+      "- Participar en actividades comunitarias (por ejemplo, Socious Work).",
+      "- Completar tareas o credenciales relacionadas con el impacto.",
+      "Estas acciones se verifican y registran, lo que aumenta tu puntuación de impacto y tu influencia en futuras votaciones."
+    ]
+  }
+}

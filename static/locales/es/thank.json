@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "heading": "Únete a la economía tecnológica para el bien común",
+    "subheading": "Gana. Participa. Empodera.",
+    "description": "THANK es el token de acceso para participar en el movimiento Tech for Impact, que te permite acceder a SOCIO, unirte a la ISPO y participar más activamente en la cumbre Tech for Impact 2025 en Japón.",
+    "link": "Cómo ganar THANK",
+    "button": "Compra una entrada para la cumbre"
+  },
+  "what": {
+    "title": "¿Qué es THANK?",
+    "description": "THANK es un token de recompensa creado por Socious, una plataforma de impacto social, para fomentar la participación en ecosistemas con fines específicos. Se obtiene al delegar ADA a nuestros grupos de participación y se puede canjear por SOCIO, un token de utilidad que se utiliza en la cumbre Tech for Impact 2025.",
+    "flow": "THANK → SOCIO → Experiencias"
+  },
+  "why": {
+    "label": "Beneficios",
+    "title": "Por qué THANK es importante",
+    "description": "THANK no es solo un símbolo, es una herramienta para generar impacto.",
+    "benefit1": "Recompensar el apoyo a la comunidad",
+    "benefit2": "Habilitar el acceso a funciones exclusivas de la cumbre",
+    "benefit3": "Impulsando casos de uso reales de la cadena de bloques"
+  },
+  "how": {
+    "title": "¿Qué necesito saber sobre THANK?",
+    "earn": {
+      "title": "¿Cómo puedo ganar THANK?",
+      "description": "Puedes ganar THANK delegando ADA a nuestros grupos de participación oficiales de ISPO. Por cada 10 ADA apostados por época, recibirás 35 tokens THANK.",
+      "sub": "Delegación → THANK → Reclamable a través de DripDropz",
+      "link": "👉 Guía paso a paso para reclamar THANK"
+    },
+    "do": {
+      "title": "¿Qué puedo hacer con THANK?",
+      "description1": "Intercambia THANK por SOCIO",
+      "description2": "1 SOCIO = 1,000,000 THANK",
+      "description3": "Compra el complemento SOCIO para la cumbre\nEl complemento SOCIO cuesta 10 000 SOCIO, lo que equivale a 10 000 millones de THANK según el tipo de cambio.\n\nParticipa en iniciativas de impacto social en cadena"
+    }
+  },
+  "resources": {
+    "title": "Recursos",
+    "link1": "Lea sobre SOCIO",
+    "link2": "Entradas y detalles de la cumbre",
+    "link3": "Cómo reclamar tokens",
+    "link4": "KYC (Verificación)"
+  },
+  "faq": {
+    "title": "Respuestas a tus preguntas más frecuentes sobre THANK",
+    "faq1": {
+      "q": "¿Cómo puedo solicitar las recompensas THANK?",
+      "a": "Tus recompensas se calculan automáticamente por época y se pueden reclamar a través de DripDropz."
+    },
+    "faq2": {
+      "q": "¿Cuál es la tasa de conversión de THANK:SOCIO?",
+      "a": "1 SOCIO = 1,000,000 THANK"
+    },
+    "faq3": {
+      "q": "¿Qué es el complemento SOCIO?",
+      "a": "Una mejora exclusiva para los participantes de la Tech for Impact Summit. Al canjear THANK → SOCIO y utilizar 10 000 SOCIO, desbloquearás acceso especial y experiencias basadas en blockchain en la cumbre."
+    },
+    "faq4": {
+      "q": "¿Por qué es tan complicada la verificación KYC?",
+      "a": "Entendemos que el proceso de verificación KYC puede parecer lento o confuso en ocasiones, y agradecemos su paciencia. \n\nPara garantizar la seguridad y legitimidad de todas las donaciones y votos, Socious colabora con Veriff, un proveedor externo de verificación de identidad de confianza. Aunque la mayoría de las verificaciones se completan rápidamente, pueden producirse retrasos debido a:\n - Documentos subidos incompletos o borrosos. - Discrepancia entre su documento de identidad y su selfie. - Alto tráfico durante las horas punta. - Problemas de red o conflictos entre versiones de la aplicación. \n\nPara evitar retrasos, asegúrese de: \n- Utilizar la última versión de la aplicación Socious Wallet. \n- Tener a mano un documento de identidad con fotografía nítida (pasaporte, documento nacional de identidad o permiso de conducir). \n - Hacer la selfie con buena iluminación, sin filtros ni gafas.\n- Seguir las instrucciones de la página Credenciales y seleccionar «Verificar ahora» con Veriff.\n- Una vez completada la verificación, el banner de tu panel de control se volverá verde y ya estarás listo para apoyar proyectos. 🎉\n\nSi sigues teniendo problemas, no dudes en ponerte en contacto con el servicio de asistencia a través de Info@socious.io."
+    }
+  },
+  "final": {
+    "title": "Participa. Gana. Únete al movimiento.",
+    "description": "THANK no es solo un símbolo, es una herramienta para generar impacto."
+  },
+  "sectionLabel": "Cómo funciona",
+  "faqLabel": "FAQ"
+}

@@ -1,0 +1,14 @@
+{
+  "getFunding": "Obtener financiación",
+  "quickLinks": "Enlaces rápidos",
+  "links": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "benefits": "Beneficios",
+    "howItWorks": "Cómo funciona",
+    "learnMore": "Más información",
+    "socious": "Socious.io",
+    "events": "Eventos",
+    "joinDiscord": "Únete a nuestro Discord"
+  }
+}

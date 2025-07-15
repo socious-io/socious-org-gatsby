@@ -1,0 +1,80 @@
+{
+  "sectionLabel": "Comment ça marche",
+  "sectionHeading": "Comment obtenir un financement dès aujourd'hui",
+
+  "step1": {
+    "title": "Soumettre et vérifier",
+    "alt": "Étape 1 - Vérifiez votre organisation",
+    "description1": "Soumettez le profil de votre projet accompagné de documents attestant de son impact. Notre équipe vérifie la conformité avec la section 501(c)(3) afin de permettre les dons déductibles d'impôt.",
+    "description2": "En savoir plus sur",
+    "link": "vérification KYB"
+  },
+
+  "step2": {
+    "title": "Participez au vote",
+    "alt": "Étape 2 - Participez au vote",
+    "description1": "Une fois approuvé, votre projet est soumis au vote des membres de la communauté, qui peuvent voter et faire un don. Les votes des utilisateurs qui ont terminé la vérification, qui ont fait un don et qui ont contribué à des projets sociaux et environnementaux ont plus d'impact, ce qui donne à votre projet de meilleures chances d'obtenir un financement.",
+    "description2": "En savoir plus sur",
+    "link1": "Scores d'impact",
+    "description3": "Consultez les résultats du",
+    "link2": "tour préliminaire"
+  },
+
+  "step3": {
+    "title": "Bénéficier d'un double financement",
+    "alt": "Étape 3 - Recevoir un double financement",
+    "description1": "Après le vote, les scores sont calculés à l'aide du système Extended Quadratic Funding, sur la base duquel vous recevrez des dons directs ainsi que des subventions de contrepartie.",
+    "description2": "Le montant de votre financement combine à la fois le soutien financier de Socious Fund et le soutien de la communauté. En savoir plus sur",
+    "link": "financement quadratique étendu"
+  },
+
+  "step4": {
+    "title": "Lancement et rapport d'impact",
+    "alt": "Étape 4 - Lancement et rapport d'impact",
+    "description": "Lancez votre projet et rendez compte régulièrement des indicateurs d'impact et des étapes franchies afin de maintenir la transparence et de renforcer la confiance de la communauté."
+  },
+
+  "tips": {
+    "heading": "Conseils et informations sur le financement participatif"
+  },
+
+  "tip1": {
+    "title": "Conseils pour optimiser vos résultats",
+    "points": [
+      "Vérifier sur Socious Fund avec KYC",
+      "Faites un don à votre projet",
+      "Recevez des points d'impact en fonction de leurs efforts sociaux passés",
+      "Partagez et recommandez à d'autres personnes, et encouragez-les à vérifier, voter et faire un don"
+    ]
+  },
+
+  "tip2": {
+    "title": "Conseils pour raconter votre histoire",
+    "points": [
+      "Commencez par raconter une anecdote personnelle qui explique pourquoi cette question est importante",
+      "Donnez à votre projet un titre mémorable",
+      "Partagez les défis auxquels vous avez été confronté",
+      "Définissez clairement vos objectifs et vos étapes clés",
+      "Établissez un lien avec vos donateurs et considérez votre histoire de leur point de vue",
+      "Publiez fréquemment des mises à jour sur les collectes de fonds"
+    ]
+  },
+
+  "tip3": {
+    "title": "Conseils pour partager votre projet",
+    "points": [
+      "Commencez à partager votre projet Socious Fund dès le premier jour et faites-en la promotion régulièrement",
+      "Utilisez des images et des vidéos captivantes pour renforcer l'engagement",
+      "Partagez le lien vers votre projet avec des groupes sur les réseaux sociaux et des organisations partageant les mêmes intérêts",
+      "Sortez de votre réseau direct et actualisez activement vos informations tout au long de la période de vote",
+      "Mettez en avant les moments opportuns ou les étapes importantes pour créer un sentiment d'urgence"
+    ]
+  },
+
+  "final": {
+    "subheading": "Performant, sûr et fiable",
+    "heading": "Grâce à la transparence des frais de Socious Fund, au processus de vérification KYC et à une équipe d'assistance, vous pouvez être assuré que vos fonds sont en sécurité et qu'ils soutiennent directement des projets à fort impact",
+    "linkText": "En savoir plus sur",
+    "link": "comment fonctionne Socious Fund"
+  }
+}

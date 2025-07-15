@@ -1,0 +1,57 @@
+import React from "react"
+import { useTranslation } from "react-i18next"
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPaperPlane } from "react-icons/fa"
+import logo from "../images/socious-logo.avif";
+
+export default function Footer() {
+  const { t } = useTranslation("footer")
+
+  return (
+    <footer className="bg-white border-t pt-12 pb-8 px-6 max-w-[75%] mx-auto">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+        
+        {/* Left Section */}
+        <div className="flex flex-col space-y-6 text-center">
+          <div className="flex h-10 translate-y-[10px]">
+            <img
+              src={logo}
+              alt="Socious Fund Logo"
+              className="h-8"
+            />
+            <span className="px-4 text-2xl leading-tight font-semibold text-[#004C45]">Socious Fund</span>
+          </div>
+          <a
+            href="https://fund.socious.org/home"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#004C45] hover:bg-[#003832] text-white font-semibold px-6 py-3 rounded-lg shadow text-center w-max no-underline"
+          >
+            {t("getFunding")}
+          </a>
+        </div>
+
+        {/* Right Section */}
+        <div className="flex flex-col items-end text-right w-auto space-y-4">
+          <h4 className="text-lg font-medium text-[#0F172A] tracking-wide">{t("quickLinks")}</h4>
+          <ul className="space-y-4 no-underline w-auto">
+            <li><a href="/#intro" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.home")}</a></li>
+            <li><a href="/#benefits" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.benefits")}</a></li>
+            <li><a href="/#howitworks" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.howItWorks")}</a></li>
+            <li><a href="https://socious.gitbook.io/fund" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.learnMore")}</a></li>
+            <li><a href="https://socious.io" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.socious")}</a></li>
+            <li><a href="https://tech4impactsummit.com/" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.events")}</a></li>
+            <li><a href="https://discord.com/invite/tHVyn4Uj6N" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-[#004C45] no-underline">{t("links.joinDiscord")}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Social Icons */}
+      <div className="mt-12 flex justify-center space-x-6 text-black">
+        <a href="https://www.facebook.com/profile.php?id=61575086411865" target="_blank" rel="noopener noreferrer"><FaFacebookF color="black" /></a>
+        <a href="https://www.instagram.com/socious_fund/" target="_blank" rel="noopener noreferrer"><FaInstagram color="black" /></a>
+        <a href="https://x.com/socious_fund" target="_blank" rel="noopener noreferrer"><FaTwitter color="black" /></a>
+        <a href="https://www.linkedin.com/company/socious-fund" target="_blank" rel="noopener noreferrer"><FaLinkedinIn color="black" /></a>
+      </div>
+    </footer>
+  )
+}

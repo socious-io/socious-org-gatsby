@@ -1,0 +1,20 @@
+{
+  "sectionLabel": "Beneficios",
+  "heading": "Por qué Socious Fund funciona para fundadores infrarrepresentados",
+
+  "feature1": {
+    "alt": "Icono de financiación",
+    "title": "Financiación sin redes de contactos influyentes",
+    "description": "Obtenga financiación basada en el apoyo de la comunidad a través de nuestro sistema de fondos comunes, independientemente de su red personal."
+  },
+  "feature2": {
+    "alt": "Icono de doble flujo",
+    "title": "Doble fuente de financiación",
+    "description": "Acceda tanto a donaciones directas como a subvenciones, maximizando su potencial de recaudación de fondos."
+  },
+  "feature3": {
+    "alt": "Icono de impuestos",
+    "title": "Donaciones con ventajas fiscales",
+    "description": "Ofrece a tus seguidores deducciones fiscales por sus contribuciones gracias a nuestra condición 501(c)(3) (solicitud pendiente)."
+  }
+}

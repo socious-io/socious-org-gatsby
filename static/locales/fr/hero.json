@@ -1,0 +1,21 @@
+{
+  "headline": "Financez votre projet grâce à des subventions et au soutien de la communauté",
+  "subtext": "Rejoignez un écosystème de financement où les subventions sont attribuées par vote communautaire.",
+  "cta": "Soumissions ouvertes",
+
+  "heroAlt": "Les mains de la communauté",
+
+  "roundHeadline": "La première phase du Socious Fund est désormais ouverte. Soumettez vos projets pour obtenir un financement.",
+  "roundDates": "Les soumissions sont ouvertes du 14 juin à 00h00 UTC au 13 juillet à 23h59 UTC.",
+  "matchingPool": "Montant total des fonds collectés : 500 000 $",
+  "total2025": "1,5 million de dollars seront déployés en 2025.",
+  "roundCta": "Obtenez un financement dès maintenant",
+
+  "impactAlt": "Plantation de jeunes arbres",
+  "impactHeadline": "Un modèle de financement fondé sur l'impact, et non sur les privilèges",
+  "impactIntro": "Les plateformes de financement participatif traditionnelles favorisent ceux qui disposent de réseaux fortunés. Socious Fund est différent : nous distribuons les fonds grâce à un système de vote quadratique qui prend en compte :",
+
+  "point1": "Combien de supporters croient en votre projet",
+  "point2": "Le bilan de l'impact de chaque supporter en matière de contribution aux causes sociales",
+  "point3": "Le montant de leur contribution financière"
+}

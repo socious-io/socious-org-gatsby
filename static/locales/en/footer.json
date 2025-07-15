@@ -1,0 +1,14 @@
+{
+  "getFunding": "Get Funding",
+  "quickLinks": "Quick Links",
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "benefits": "Benefits",
+    "howItWorks": "How It Works",
+    "learnMore": "Learn More",
+    "socious": "Socious.io",
+    "events": "Events",
+    "joinDiscord": "Join Our Discord"
+  }
+}
