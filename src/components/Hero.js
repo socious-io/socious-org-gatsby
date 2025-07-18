@@ -10,9 +10,9 @@ export default function Hero() {
   return (
     <>
       <section id="intro" className="pt-20 md:pt-36 pb-12 md:pb-24 bg-white">
-        <div className="max-w-full md:max-w-[75%] mx-auto flex flex-col-reverse lg:flex-row items-center px-4 md:px-8 gap-10 md:gap-16">
+        <div className="w-full max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center px-4 md:px-8 gap-10 lg:gap-20">
           <div className="text-center md:text-left max-w-xl">
-            <h1 className="text-3xl md:text-6xl font-extrabold leading-tight mb-4 md:mb-6">
+            <h1 className="text-3xl md:text-6xl font-bold leading-tight mb-4 md:mb-6">
               {t("headline")}
             </h1>
             <p className="text-base md:text-lg text-black mb-6 md:mb-8">

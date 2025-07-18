@@ -27,7 +27,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Step 1 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-16 mb-24">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-16 mb-20">
           <div className="w-full max-w-md">
             <img src={step1Image} alt={t("step1.alt")} className="w-full h-auto object-contain" />
           </div>
@@ -52,7 +52,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Step 2 */}
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16 mb-24">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16 mb-20">
           <div className="flex-1 text-left max-w-xl">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-[#004C45] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold text-sm">02</div>
@@ -86,7 +86,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Step 3 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-16 mb-24">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-16 mb-20">
           <div className="w-full max-w-md">
             <img src={step3Image} alt={t("step3.alt")} className="w-full h-auto object-contain" />
           </div>
@@ -111,7 +111,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Step 4 */}
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16 mb-20">
           <div className="flex-1 text-left max-w-xl">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-[#004C45] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold text-sm">04</div>
@@ -126,7 +126,7 @@ export default function HowItWorks() {
       </div>
 
       {/* Tips Section */}
-      <div className="bg-[#e9d3c9] py-24 px-6">
+      <div className="bg-[#e9d3c9] py-20 px-6">
         <div className="max-w-[75%] mx-auto">
           <h3 className="text-center md:text-lg font-medium text-[#004C45] mb-20">
             {t("tips.heading")}
@@ -139,7 +139,7 @@ export default function HowItWorks() {
                 <div key={tipKey} className="text-[#004C45]">
                   <img src={tipIcons[idx]} alt="" className="h-8 w-8 mb-6" />
                   <h4 className="text-lg font-semibold mb-4">{t(`${tipKey}.title`)}</h4>
-                  <ul className="list-disc pl-5 text-sm leading-relaxed">
+                  <ul className="list-disc list-inside text-sm leading-relaxed">
                     {pointItems.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}

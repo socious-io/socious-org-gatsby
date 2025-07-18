@@ -36,7 +36,7 @@ export default function ThankPage() {
       {/* Hero */}
       <section className="max-w-full md:max-w-[75%] mx-auto flex flex-col-reverse lg:flex-row items-center px-4 md:px-8 gap-10 md:gap-16">
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-3xl md:text-6xl font-extrabold leading-tight mb-3 md:mb-6">{t("hero.heading")}</h1>
+          <h1 className="text-3xl md:text-6xl font-bold leading-tight mb-3 md:mb-6">{t("hero.heading")}</h1>
           <p className="text-xl md:text-4xl font-semibold mb-3 md:mb-4">{t("hero.subheading")}</p>
           <p className="mb-4">{t("hero.description")}</p>
           <a
@@ -79,7 +79,7 @@ export default function ThankPage() {
           </div>
         </div>
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-3 md:mb-4">{t("what.title")}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-3 md:mb-4">{t("what.title")}</h2>
           <p>{t("what.description")}</p>
           <p className="mt-4 font-medium">{t("what.flow")}</p>
         </div>

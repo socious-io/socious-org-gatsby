@@ -1,5 +1,24 @@
 const path = require("path");
 
+exports.onPreBootstrap = async () => {
+  const { execSync } = require("child_process");
+  execSync("npm run fetch-images", { stdio: "inherit" });
+};
+
+exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions;
+
+  if (node.internal.type === "NotionPage") {
+    // This will expose the original Notion page ID
+    // Example: 2e361e6a-f254-4b01-abc5-1a2e98d209a0
+    createNodeField({
+      node,
+      name: "notionId",
+      value: node.pageId || node.id, // fallback if node.pageId doesn't exist
+    });
+  }
+};
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 

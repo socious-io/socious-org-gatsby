@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import Navbar from "../components/Navbar";
+import imageMap from "../../static/notion-images/notion-image-map.json";
 
 const Blog = ({ data }) => (
   <main className="bg-white font-sans text-gray-900">
@@ -21,7 +22,14 @@ const Blog = ({ data }) => (
           const { Path, Excerpt, Date: dateObj, Picture } = post.properties;
           const title = post.title;
           const date = dateObj?.start;
-          const imageUrl = Picture?.[0]?.url;
+
+          const notionId = post.fields.notionId?.replace(/-/g, "");
+          const ext = imageMap[notionId];
+          const imageFilename = ext ? `notion-${notionId}-0.${ext}` : null;
+          const localImagePath = imageFilename ? `/notion-images/${imageFilename}` : null;
+
+          const remoteUrl = Picture?.[0]?.url;
+          const finalImage = localImagePath || remoteUrl || "/images/blog-placeholder.jpg";
 
           return (
             <Link
@@ -31,9 +39,14 @@ const Blog = ({ data }) => (
             >
               <div className="aspect-[16/9] bg-gray-200 rounded-t-xl overflow-hidden">
                 <img
-                  src={imageUrl || "/images/blog-placeholder.jpg"}
+                  src={finalImage}
                   alt={title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  onError={(e) => {
+                    console.warn(`❌ Could not load image: ${finalImage}`);
+                    e.currentTarget.src = "/images/blog-placeholder.jpg";
+                  }}
                 />
               </div>
               <div className="p-4 md:p-6">
@@ -64,6 +77,9 @@ export const query = graphql`
     ) {
       nodes {
         id
+        fields {
+          notionId  # ✅ raw Notion page ID from gatsby-node.js
+        }
         title
         properties {
           Path

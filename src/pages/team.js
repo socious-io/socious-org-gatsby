@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Navbar from "../components/Navbar";
+import imageMap from "../../static/notion-images/notion-image-map.json";
 
 const Team = ({ data }) => (
   <main className="bg-white font-sans text-gray-900">
@@ -19,19 +20,29 @@ const Team = ({ data }) => (
         {data.allNotionPage.nodes.map((member) => {
           const { Role, Bio, Picture } = member.properties;
           const name = member.title;
-          const imageUrl = Picture?.[0]?.url;
+
+          const notionId = member.fields.notionId?.replace(/-/g, "");
+          const ext = imageMap[notionId];
+          const localImageFilename = ext ? `notion-${notionId}-0.${ext}` : null;
+          const localImagePath = localImageFilename ? `/notion-images/${localImageFilename}` : null;
+
+          const remoteUrl = Picture?.[0]?.url;
           const imageAlt = Picture?.[0]?.name || name;
 
+          const finalImage = localImagePath || remoteUrl;
+
           return (
-            <div
-              key={member.id}
-              className="text-center flex flex-col items-center"
-            >
-              {imageUrl && (
+            <div key={member.id} className="text-center flex flex-col items-center">
+              {finalImage && (
                 <img
-                  src={imageUrl}
+                  src={finalImage}
                   alt={imageAlt}
                   className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mb-3 md:mb-4 shadow"
+                  loading="lazy"
+                  onError={(e) => {
+                    console.warn(`❌ Could not load image: ${finalImage}`);
+                    e.currentTarget.style.display = "none";
+                  }}
                 />
               )}
               <h3 className="text-base md:text-lg font-semibold mb-1">{name}</h3>
@@ -60,6 +71,9 @@ export const query = graphql`
     ) {
       nodes {
         id
+        fields {
+          notionId  # ✅ real Notion page ID from gatsby-node.js
+        }
         title
         properties {
           Role

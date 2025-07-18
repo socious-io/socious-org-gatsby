@@ -1,13 +1,22 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Navbar from "../components/Navbar";
+import imageMap from "../../static/notion-images/notion-image-map.json";
 
 const NewsroomArticle = ({ data }) => {
   const post = data.notionPage;
   const { Summary, Date: dateObj, Picture, Content } = post.properties;
   const date = dateObj?.start;
-  const imageUrl = Picture?.[0]?.url;
+
+  const notionId = post.fields.notionId?.replace(/-/g, "");
+  const ext = imageMap[notionId];
+  const imageFilename = ext ? `notion-${notionId}-0.${ext}` : null;
+  const localImagePath = imageFilename ? `/notion-images/${imageFilename}` : null;
+
+  const remoteUrl = Picture?.[0]?.url;
   const imageAlt = Picture?.[0]?.name || post.title;
+
+  const finalImage = localImagePath || remoteUrl;
 
   return (
     <main className="bg-white font-sans text-gray-900">
@@ -30,18 +39,23 @@ const NewsroomArticle = ({ data }) => {
           )}
         </div>
 
-        {imageUrl && (
+        {finalImage && (
           <div className="max-w-3xl mb-8 md:mb-12 rounded-lg overflow-hidden">
             <img
-              src={imageUrl}
+              src={finalImage}
               alt={imageAlt}
               className="w-full h-auto object-cover rounded-lg"
+              loading="lazy"
+              onError={(e) => {
+                console.warn(`❌ Could not load image: ${finalImage}`);
+                e.currentTarget.style.display = "none";
+              }}
             />
           </div>
         )}
 
         <div className="max-w-3xl prose prose-sm md:prose-lg">
-          <div
+          <p
             dangerouslySetInnerHTML={{ __html: Content }}
           />
         </div>
@@ -56,6 +70,9 @@ export const query = graphql`
   query NewsroomArticleQuery($id: String!) {
     notionPage(id: { eq: $id }) {
       id
+      fields {
+        notionId  # ✅ Exposed via gatsby-node.js
+      }
       title
       properties {
         Summary

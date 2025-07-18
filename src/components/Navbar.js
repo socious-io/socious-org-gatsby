@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="max-w-full md:max-w-[75%] mx-auto flex items-center justify-between px-4 md:px-0">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt={t("alt")} className="h-10 translate-y-[5px] md:translate-y-[10px]" />
+            <img src={logo} alt={t("alt")} className="h-10 object contain" />
             <span className="text-xl md:text-2xl font-semibold text-[#004C45] leading-tight">
               {t("brand")}
             </span>

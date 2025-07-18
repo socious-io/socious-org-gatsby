@@ -2,23 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
+/* TT Norms Pro */
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Regular.woff2') format('woff2');
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Bold Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro DemiBold Italic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Black Italic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('../fonts/TT Norms Pro/TT Norms Pro Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi – placeholder, update paths similarly */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi/Satoshi-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Bold.woff2') format('woff2');
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi/Satoshi-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
+/* Apply fonts */
+ul, button, p, a, body {
+  font-family: 'Satoshi', sans-serif;
+}
 
-body {
-  font-family: 'Inter', sans-serif;
+span, h1, h2, h3, h4, h5, h6 {
+  font-family: 'TT Norms Pro', sans-serif;
 }
